@@ -3,6 +3,7 @@ package org.joychou.controller;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -16,7 +17,7 @@ public class Log4j {
      * Fix: Update log4j to lastet version.
      * @param token token
      */
-    @GetMapping("/log4j")
+    @RequestMapping("/log4j")
     public String log4j(String token) {
         if(token.equals("java-sec-code")) {
             return "java sec code";
