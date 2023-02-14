@@ -322,6 +322,11 @@
             <artifactId>h2</artifactId>
             <version>1.4.200</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-dbcp</artifactId>
+            <version>9.0.40</version>
+        </dependency>
 
     </dependencies>
 
