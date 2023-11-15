@@ -76,7 +76,7 @@
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
-            <version>3.1</version>
+            <version>3.2.2</version>
         </dependency>
 
         <dependency>
@@ -139,7 +139,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <version>1.4.0.RELEASE</version>
+            <version>3.0.0</version>
         </dependency>
 
         <!-- 生成uuid -->
@@ -266,7 +266,7 @@
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
-            <version>1.21</version>
+            <version>1.31</version>
         </dependency>
 
         <dependency>
@@ -290,7 +290,7 @@
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
-            <version>0.9.1</version>
+            <version>0.12.0</version>
         </dependency>
 
         <!-- https://github.com/auth0/java-jwt https://mvnrepository.com/artifact/com.auth0/java-jwt -->
